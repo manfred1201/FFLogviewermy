@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FFLogsViewer/2.0.4.2": {
+        "dependencies": {
+          "DalamudLinter": "1.0.3",
+          "DalamudPackager": "2.1.6",
+          "StyleCop.Analyzers": "1.2.0-beta.406",
+          "XivCommon": "4.0.0"
+        },
+        "runtime": {
+          "FFLogsViewer.dll": {}
+        }
+      },
+      "DalamudLinter/1.0.3": {},
+      "DalamudPackager/2.1.6": {},
+      "StyleCop.Analyzers/1.2.0-beta.406": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.406"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.406": {},
+      "XivCommon/4.0.0": {
+        "runtime": {
+          "lib/net5.0-windows7.0/XivCommon.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FFLogsViewer/2.0.4.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudLinter/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yODrbT8F73JJsvC3UbQ+Cn+huhH4TEYvlunjKUUed2SHBhGDJrkV8l21Xe9GMut4ZauPvySgYWUigX/msAAEag==",
+      "path": "dalamudlinter/1.0.3",
+      "hashPath": "dalamudlinter.1.0.3.nupkg.sha512"
+    },
+    "DalamudPackager/2.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGgpGP2FMM5Vt4utyDD+xV2+XXfo3Rb3VgJ4FnvzkWlvn4JG/bBILo6mDubWCPjDGqT0n6dF1JRG0r5ygLv/ng==",
+      "path": "dalamudpackager/2.1.6",
+      "hashPath": "dalamudpackager.2.1.6.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.406": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YbsYoczQPZyz+4nmQ7bBiU9uQkk7Q2KUizQWEv01S4/ImCdJFiHvJfm8HAINNS0cvSLOA7xM9Y+KWQ2FOYjgkA==",
+      "path": "stylecop.analyzers/1.2.0-beta.406",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.406.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.406": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FclNdBR81ynIo9l1QNlo+l0I/PaFIYaPQPlMram8XVIMh6G6G43KTa1aCxfwTj13uKlAJS/LhLy6KjOPOeAU4w==",
+      "path": "stylecop.analyzers.unstable/1.2.0.406",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.406.nupkg.sha512"
+    },
+    "XivCommon/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gM8ahhUA3gniqb2TFdXtHwGKyctBuMb1SuiZ36OD9MEqOiQHTnJSlSP6jr+NkGSFaP5OCr21wu//nGOlXCSdqg==",
+      "path": "xivcommon/4.0.0",
+      "hashPath": "xivcommon.4.0.0.nupkg.sha512"
+    }
+  }
+}
